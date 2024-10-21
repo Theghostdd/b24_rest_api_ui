@@ -1,0 +1,44 @@
+.accordion {
+    background-color: #1e1e1e;
+    color: #e5e5e5;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    border: 1px solid #2d2d2e;
+    font-size: 16px;
+
+}
+
+.active, .accordion:hover {
+
+}
+
+.panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: #e5e5e5;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.panel.show {
+    max-height: 200rem;
+}
+.accordion i {
+    font-size: 13px;
+    color: #444;
+    float: right;
+    margin-left: 5px;
+    transition: color 0.4s;
+
+}
+
+.accordion.active i {
+    color: #529ef3;
+}

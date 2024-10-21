@@ -1,0 +1,69 @@
+.docs-container {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+
+.docs-container > label {
+    color: #529ef3;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 18px;
+}
+
+.docs-children-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.docs-children-container > p {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #eceaea;
+}
+
+.docs-children-container > p >  span {
+    color: #529ef3;
+}
+
+
+
+
+.docs-children-container > a {
+    color: #529ef3;
+}
+
+
+
+.docs-children-container table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #e5e5e5;
+}
+
+.docs-children-container th,
+.docs-children-container td {
+    padding: 12px;
+    border: 1px solid #2d2d2e;
+    text-align: left;
+}
+/*1e1e1e*/
+.docs-children-container th {
+    background-color: #19191a;
+    color: #529ef3;
+}
+
+.docs-children-container tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+.docs-children-container.inside tr:hover {
+    background-color: rgba(82, 158, 243, 0.5);
+}
+
+
+#jsonPathExamples {
+    margin-top: 30px;
+    font-size: 14px;
+}
