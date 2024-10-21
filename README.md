@@ -10,12 +10,6 @@ This UI application is designed for integration with **Cloud Bitrix24** and util
 
 - **Request Sandbox:** The application provides an interactive "sandbox" where users can write and test API requests, configure parameters, and instantly see responses from Bitrix24.
 
-## Installation and Launch:
-
-The ready-to-use application build can be found at the following address: [Docker Hub - Ghostthedd Custom REST API B24](https://hub.docker.com/repository/docker/ghostthedd/customrestapib24-ui/general).
+## API:
 
 For working with the activity-related API, please visit the GitHub repository: [B24 REST API](https://github.com/Theghostdd/b24_rest_api).
-
-### Running the Application:
-
-To run the ready-to-use UI + API build (for working with Bitrix24 activities and application actions), use the `docker-compose` file.
